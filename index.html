@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulação de Memória Virtual por Paginação</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simulação de Memória Virtual por Paginação</h1>
+        <div class="memory-virtual">
+            <h2>Memória Virtual</h2>
+            <div class="page" data-page="1">Página 1 <button class="load-btn">Carregar</button></div>
+            <div class="page" data-page="2">Página 2 <button class="load-btn">Carregar</button></div>
+            <div class="page" data-page="3">Página 3 <button class="load-btn">Carregar</button></div>
+            <div class="page" data-page="4">Página 4 <button class="load-btn">Carregar</button></div>
+            <div class="page" data-page="5">Página 5 <button class="load-btn">Carregar</button></div>
+        </div>
+        <div class="memory-fisica">
+            <h2>Memória Física</h2>
+            <div class="frame" id="frame1">Frame 1</div>
+            <div class="frame" id="frame2">Frame 2</div>
+        </div>
+        <div class="logs">
+            <h2>Logs</h2>
+            <ul id="log-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- 1. Introdução (5 min)
+Abertura:
+
+Comece com uma analogia: "Imagine que a memória do seu computador é como uma biblioteca, onde os livros são as informações que o computador precisa acessar."
+Pergunta ao público:
+
+"Quantos livros conseguimos guardar na nossa estante de casa? E se quiséssemos ler mais livros do que cabem na estante?"
+2. A Biblioteca (10 min)
+Explicação Visual:
+
+Use um quadro ou slides com imagens de uma biblioteca.
+Memória Física: Mostre a estante da biblioteca (memória RAM).
+Memória Virtual: Mostre prateleiras extras (disco rígido) onde livros (dados) podem ser armazenados.
+Atividade:
+
+Peça aos participantes para imaginar um cenário onde precisam acessar um livro que não está na estante. Como isso afetaria a leitura?
+3. O Que é Paginação? (10 min)
+Introdução ao Conceito:
+
+"Assim como você não pode carregar todos os livros ao mesmo tempo, o computador usa uma técnica chamada 'Paginação' para gerenciar sua memória."
+Atividade Lúdica:
+
+Crie "páginas" de papel representando diferentes partes de um livro. Dê a cada participante uma página.
+Diga que apenas algumas páginas podem ser colocadas na "estante" (memória física) de cada vez.
+4. Carregando e Substituindo Páginas (15 min)
+Explicação:
+
+"Quando precisamos de um livro que não está na estante, precisamos ir até a prateleira extra para pegar. Mas, para isso, precisamos colocar um livro de volta."
+Atividade Interativa:
+
+Organize os participantes em grupos e dê a eles um conjunto de "páginas" para "carregar" em suas estantes.
+Quando eles precisam de uma nova página, eles devem escolher uma para "substituir" (pode ser feito com post-its ou cartões).
+Discussão:
+
+Pergunte como foi a experiência de escolher qual página substituir. O que os levou a essa escolha?
+5. Políticas de Substituição (10 min)
+Introdução às Políticas:
+
+Explique que existem várias maneiras de decidir qual página substituir. Use analogias divertidas:
+FIFO (First In, First Out): "O primeiro livro que você colocou na estante é o primeiro a sair."
+LRU (Least Recently Used): "O livro que você não leu há mais tempo deve sair primeiro."
+Atividade Lúdica:
+
+Crie um jogo onde os participantes representam os livros e, de acordo com a política escolhida, devem decidir quem sai da estante. Faça isso em duplas ou pequenos grupos.
+6. Conclusão (5 min)
+Resumo:
+
+Recapitule os conceitos de memória virtual e paginação de forma leve e divertida.
+Destaque a importância da memória virtual no funcionamento eficiente dos computadores.
+Encerramento:
+
+Pergunte aos participantes se têm alguma dúvida e faça uma última analogia: "Assim como gerenciamos uma biblioteca, os computadores gerenciam seus dados para garantir que tudo funcione perfeitamente."
+Dicas Adicionais:
+Utilize recursos visuais, como diagramas e slides, para ilustrar conceitos complexos.
+Esteja atento ao envolvimento do público, fazendo perguntas e incentivando a participação.
+Use humor e analogias criativas para manter o ambiente leve e acessível.
+Com esse roteiro, a explicação da Memória Virtual por Paginação se torna uma experiência interativa e divertida, facilitando a compreensão do tema! -->
